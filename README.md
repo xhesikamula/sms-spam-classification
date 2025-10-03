@@ -1,6 +1,6 @@
 # SMS Spam Classification
 
-This project is a simple SMS spam classifier using machine learning. It trains a **Naive Bayes** model to classify SMS messages as either **ham** (normal message) or **spam**. The project also provides a **prediction script** and a **Flask API** to test messages interactively.
+This project is a simple SMS spam classifier using machine learning. It trains and evaluates both **Naive Bayes** and **Logistic Regression** models, with **Naive Bayes** ultimately chosen for predictions due to slightly better performance. The project also provides a prediction script and a Flask API to test messages interactively.
 
 ---
 
