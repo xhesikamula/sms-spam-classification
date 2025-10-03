@@ -7,9 +7,7 @@ This project is a simple SMS spam classifier using machine learning. It trains a
 ## 📂 Project Structure
 
 sms-spam-classification/
-
 ├─ data/
-
 │ ├─ spam_cleaned.csv # Preprocessed dataset
 | ├─ spam.csv #the real dataset
 ├─ models/ # Saved models and vectorizer
@@ -42,6 +40,7 @@ sms-spam-classification/
 
 ```python
 df['Label'].value_counts()
+```
 - Checked the 10 most frequent words in the dataset using collections.Counter.
 - Optional: visualized category counts using a bar chart. Screenshot included.
 
@@ -58,17 +57,18 @@ df['Label'].value_counts()
 
 - **Evaluation metrics:** accuracy, precision, recall, F1-score.
 
--Confusion matrices were visualized using Seaborn.
+- Confusion matrices were visualized using Seaborn.
 
 ---
 
 ## 💻 Prediction Script (predict.py)
 - Allows users to enter a message in the terminal and get predictions (ham or spam).
 
-**Usage:** python predict.py
+**Usage:** ```bash python predict.py ```
 
 **Example:**
 Enter a message(or type 'quit' to exit): 07732584351 - Rodger Burns - MSG = We tried to call you re your reply to our sms for a free nokia mobile + free camcorder. Please call now 08000930705 for delivery tomorrow,
+
 Prediction: spam
 
 ---
