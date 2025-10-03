@@ -5,7 +5,7 @@ This project is a simple SMS spam classifier using machine learning. It trains a
 ---
 
 ## 📂 Project Structure
-
+```
 sms-spam-classification/
 ├─ data/
 │ ├─ spam_cleaned.csv # Preprocessed dataset
@@ -22,7 +22,7 @@ sms-spam-classification/
 │ ├─ predict.py # Simple terminal prediction script
 │ └─ app.py # Flask API to test predictions
 └─ README.md
-
+```
 
 ---
 
@@ -44,7 +44,6 @@ df['Label'].value_counts()
 - Checked the 10 most frequent words in the dataset using collections.Counter.
 - Optional: visualized category counts using a bar chart. Screenshot included.
 
-```
 ---
 
 ## ⚙️ Model Training
