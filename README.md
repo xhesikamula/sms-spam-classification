@@ -95,8 +95,10 @@ python app.py
 ```bash
 curl -X POST http://127.0.0.1:5000/predict \
      -H "Content-Type: application/json" \
-     -d "{\"message\": \"Congrats! You won a free iPhone.\"}"
+     -d "{\"message\": \"The message here\"}"
 ```
+💡 I tested the `/predict` endpoint using **Command Prompt** with the `curl` command, and it returned the correct predictions.
+
 ---
 
 ## 👩🏻‍💻 Author
