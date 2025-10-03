@@ -7,7 +7,9 @@ This project is a simple SMS spam classifier using machine learning. It trains a
 ## 📂 Project Structure
 
 sms-spam-classification/
+
 ├─ data/
+
 │ ├─ spam_cleaned.csv # Preprocessed dataset
 | ├─ spam.csv #the real dataset
 ├─ models/ # Saved models and vectorizer
